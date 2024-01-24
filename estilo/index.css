@@ -93,12 +93,14 @@
         height: 300px;
     }
     .box-sobre img {
+        display: none;
      
     }
     .box-especialidades {
         justify-content: center;
     }
     .box-especialidade {
+        width: calc(100% / 2 - 40px);
         
     }
 }
