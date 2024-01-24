@@ -104,16 +104,23 @@
         
     }
 }
-    @media (max-width: 425px) {
+    @media (max-width: 568px) {
         .box-visao-geral {
-            width: 100%;
-            height: 100%;
+            width: 560px;
+            height: 560px;
+            
+            
+          
         }
         .box-visao-geral h1 {
             font-size: 20px;
 
         }
-        .box-especialidade{
-            width: auto;
+        .box-especialidade  {
+            width: 100px;
+
+           
         }
+        
+        
     }
