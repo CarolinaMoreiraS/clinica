@@ -118,6 +118,7 @@
         }
         .box-especialidade  {
             width: 80px;
+            justify-content: space-between;
 
            
         }
