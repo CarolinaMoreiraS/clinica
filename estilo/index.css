@@ -1,33 +1,27 @@
 
 
 
-
-#sobre, 
-#especialidades
-#contato {
+#sobre,#especialidades, #contato {
     padding: 40px 20px 0px;
 
 }
 
 
-.box-visao-geral, .recep{
+.box-visao-geral{
    
-    
-    background-repeat: no-repeat;
-    background-size:cover;
-    width: 100%;
-    height: 500px;
-
+position: relative;
+background-image: url(/imagens/recepcao.png);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 500px;
 }
-.box-visao-geral-titulo .titulo1{
-    position: relative;
-    bottom: 400px;
-    width: 300px;
+.box-visao-geral-titulo{
     height: 100%;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.19);
-    padding: 50px;
-   
+    padding: 10px;
+    display: flex;
+    align-items: center;
 }
 .box-sobre {
     display: flex;
@@ -62,9 +56,8 @@
 .box-especialidades img {
     width: 100%;
 }
-.pediatra {
-    margin: 17px 0px 0px 0px;
-}
+
+
 .box-especialidades figcaption{
     text-align: center;
     padding: 10px;
@@ -104,24 +97,16 @@
         
     }
 }
-    @media (max-width: 568px) {
+    @media (max-width: 425px) {
         .box-visao-geral {
-            width: 560px;
-            height: 560px;
+           
+            height: 100px;
             
-            
-          
         }
         .box-visao-geral h1 {
-            font-size: 20px;
-
+            font-size: 28px;
         }
-        .box-especialidade  {
-            width: 100px;
-            justify-content: space-between;
-
-           
+        .box-especialidade {
+            width: 100%;
         }
-        
-        
     }
